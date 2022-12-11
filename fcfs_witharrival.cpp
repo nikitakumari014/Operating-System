@@ -44,8 +44,8 @@ void fcfs(int n, int burst_time[], int arrival_time[])
 }
 int main()
 {
-    int arrival_time[] = {0, 4, 5, 6, 6};
-    int burst_time [] = {3,5,4,4,2};
-    int n = 5;
+    int arrival_time[] = {0,1,5,6};
+    int burst_time [] = {2,2,3,4};
+    int n = 4;
     fcfs(n, burst_time, arrival_time);
 }
