@@ -12,7 +12,7 @@ scanf("%d", &burst_time[i]);
 sum_burst_time += burst_time[i];
 }
 printf("Process\t|\tT.A.T\t|\tW.T\n");
-burst_time[9] = 9999;
+burst_time[9] = 9999;   
 for (time = 0; time <sum_burst_time;) {
 smallest = 9;
 for (i = 0; i< n; i++) {
